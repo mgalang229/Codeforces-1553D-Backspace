@@ -21,7 +21,7 @@ public class AuthorSol {
 				System.out.println("NO");
 				continue;
 			}
-			int p = (n - m) & 1;
+			int p = (n - m) & 1; // decides whether we will use backspace on the first letter
 			int q = 0, k = 0;
 			for (int i = p; i < n; i++) {
 				if (k == 1) { // use backspace (the previous typed letter is incorrect)
